@@ -1,0 +1,146 @@
+p {
+  text-align: justify;
+}
+* {
+  font-family: "Syne Mono", monospace;
+}
+body {
+  margin: 0;
+  background-color: #eee501;
+}
+#conteiner {
+  width: 70%;
+
+  text-align: center;
+  border: solid 3px black;
+  padding: 0 30px 30px 30px;
+}
+.a1 {
+  border: 4px solid black;
+  width: 100%;
+}
+.barra {
+  width: 100%;
+  height: 30px;
+  border: solid 3px black;
+  background-color: #146391;
+
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+.ota {
+  width: 100px;
+  height: 24px;
+  border: solid 3px black;
+  border-radius: 50px;
+  background-color: #ff8563;
+}
+.cyber {
+  width: 50%;
+  margin: 0 auto;
+}
+.medo {
+  width: 150px;
+  border: px solid black;
+  margin-top: 40px;
+  height: 150px;
+}
+.tata {
+  justify-content: space-between;
+  display: flex;
+}
+.a2 {
+  width: 100%;
+}
+.ost {
+  border: 3px solid black;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/image_processing.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.aha {
+  width: 80%;
+  height: 150px;
+  border: solid 1px black;
+}
+.alto {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.ota:hover {
+  background-color: #eee501;
+}
+.imag {
+  width: 10%;
+  height: 1000px;
+  margin-top: 500px;
+  border: 4px solid black;
+}
+.wich {
+  display: flex;
+  justify-content: space-around;
+}
+.morrow {
+  height: 1000px;
+  margin-top: 500px;
+  width: 10%;
+  border: solid black 4px;
+}
+.wind {
+  width: 100%;
+  height: 100%;
+}
+.dara {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 2500px) {
+  #conteiner {
+    font-size: 40px;
+  }
+  .ota {
+    height: 100%;
+    width: 10%;
+  }
+  .barra {
+    height: 57px;
+  }
+  .dara {
+    height: 400%;
+  }
+  .wind {
+    height: 400%;
+  }
+}
+@media screen and (min-width: 900px)and (max-width: 1800px) {
+  #conteiner {
+    font-size: 30px;
+  }
+  .ota {
+    width: 20%;
+    height: 100%;
+  }
+  .imag {
+    display: none;
+  }
+  .morrow {
+    display: none;
+  }
+  .wich {
+    justify-content: center;
+  }
+  .ost {
+    display: none;
+  }
+}
+
+ @media screen and (max-width: 1800px) {
+ .ost{display: none;}
+} 
